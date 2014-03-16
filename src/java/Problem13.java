@@ -3,7 +3,6 @@ public class Problem13 {
 	public static void findSum(ArrayList<ArrayList<Integer>> array) {
 		int len=array.get(0).size();
 		int i=len-1;
-		System.out.println(i);
 		int sum=0;
 		int c=0;
 		ArrayList<Integer> ret=new ArrayList<Integer>();
